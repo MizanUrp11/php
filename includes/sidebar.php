@@ -63,9 +63,6 @@
                     ?>
                    
                    
-<!--                This is nothing   -->
-                   
-                   
                    
                     <h4>Blog Categories</h4>
                     <div class="row">
