@@ -1,0 +1,14 @@
+{
+    "highlight-matching-tag.styles": {
+        "opening": {
+          "name": {
+            "underline": "##f1c40f"
+          }
+      }
+      ,"closing": {
+        "name": {
+          "underline": "##f1c40f"
+        }
+    }
+    }
+}
