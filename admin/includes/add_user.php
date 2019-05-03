@@ -30,7 +30,7 @@ if(isset($_POST['create_user'])){
     
      confirm_query($create_user_query);
     
-    
+    echo "user created: " . "<a href='users.php'>View Users</a>";
     
     
 }
