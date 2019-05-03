@@ -122,10 +122,36 @@ if(isset($_GET['p_id'])){
     </div>
 
 
-    <div class="form-group">
-        <label for="Post_Status">Post Status</label>
-        <input type="text" class="form-control" id="Post_Status" placeholder="Post Post_Status" name="post_status" value="<?php echo $post_status ?>">
-    </div>
+
+
+
+<div class="form-group">
+<select name="post_status">
+<option value=""><?php echo $post_status; ?></option>
+
+
+<?php
+if ($post_status == "Published" || $post_status == "") {
+    echo "<option value='Draft'>Draft</option>";
+} else {
+    echo "<option value='Published'>Published</option>";
+}
+
+?>
+
+
+
+
+</select>
+</div>
+
+
+
+
+
+
+
+
 
     <div class="form-group">
         <label for="Post_image">Post Image</label>
